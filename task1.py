@@ -12,7 +12,7 @@ def parse_argv():
         "-o",
         "--output",
         type=Path,
-        default=Path("output"),
+        default=Path("dist"),
         help="Output directory path.",
     )
     return parser.parse_args()
